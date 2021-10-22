@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+</head>
+<body>
+	<table>
+	<tr style="width: 25%;">
+		<th style="width:30px;">ID</th>
+		<th style="width:200px;">Name</th>
+		<th style="width:200px;">Surname</th>
+		<th style="width:100px;">Birth date</th>
+		<th style="width:60px;">Action</th>
+		<th style="width:60px;">Action</th>
+	  </tr>
+	</table>
+	{% for worker in workers %}
+	<table>
+		  <tr style="width: 25%;">
+			<td style="width:30px;">{{ worker.id }} </td>
+			<td style="width:200px;">{{ worker.name }}</td>
+			<td style="width:200px;">{{ worker.surname }}</td>
+			<td style="width:100px;">{{ worker.birth_date }}</td>
+			<td style="width:60px;"><a href="/delete/{{worker.id}}"><button type="button">Delete </button></a></td>
+			<td style="width:50px;"><a href="/workers/{{worker.id}}/edit"><button type="button">Update </button></a></td>
+		  </tr>
+		  {% endfor %}
+	</table>
+	<a href="/workers/create"><button type="button"> Add </button></a><br>
+	<a href="/export_to_excel/"><button type="button">Export to excel </button></a><br>
+	<!-- <a href="/logout/"><button type="button">Logout </button></a> -->
+</body>
+</html>
+

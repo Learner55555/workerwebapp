@@ -1,0 +1,14 @@
+<form method="post" action="/workers/{{worker.id}}/edit">
+  <h3>Update worker: <em>{{ worker.name }}</em></h3>
+   
+    <p>Name</p>
+    {{ form.name}}
+
+    <p>Surname</p>
+    {{ form.surname}}
+    
+    <p>Birth_date</p>
+    {{ form.birth_date}}
+    
+    <input type="submit" value="Update Worker">
+</form>
