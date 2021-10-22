@@ -2,9 +2,9 @@
 
 This project is created to input worker information, get that information, edit it and export it to excel file.
 
-Commmands to run the project on localhost
+Commmands to run the project on localhost:
 
-1) create DATABASE named it_project
+1) create DATABASE named it_project;
 
 2) Go to project folder and run cmd, type these commands:<br>
 
