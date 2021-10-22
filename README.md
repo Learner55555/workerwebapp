@@ -6,7 +6,7 @@ Commmands to run the project on localhost
 
 1) create DATABASE named it_project
 
-2) Go to project folder and run cmd, type these commands
+2) Go to project folder and run cmd, type these commands<br>
 flask db init<br>
 flask db migrate<br>
 flask db upgrade<br>
