@@ -8,7 +8,7 @@ Commmands to run the project on localhost:
 
 2)Go to project folder and run cmd, type these commands:<br>
 
-A) **For migrations**
+A) **For migrations**<br>
 flask db init<br>
 flask db migrate<br>
 flask db upgrade<br>
