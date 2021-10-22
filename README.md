@@ -4,8 +4,8 @@ This project is created to input worker information, get that information, edit 
 
 Commmands to run the project on localhost
 
-set FLASK_APP=app.py
-set FLASK_DEBUG=True
+set FLASK_APP=app.py<br>
+set FLASK_DEBUG=True<br>
 flask run
 
 Have fun to use it!
